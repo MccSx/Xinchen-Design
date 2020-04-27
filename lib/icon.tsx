@@ -1,11 +1,11 @@
 import React from "react";
 
-const Icon = () => {
-  return (
-    <div>
-      <span>icon</span>
-    </div>
-  );
+interface IconProps {
+  name: string;
+}
+
+const Icon: React.FunctionComponent<IconProps> = props => {
+  return <span>{props.name}</span>;
 };
 
 export default Icon;
