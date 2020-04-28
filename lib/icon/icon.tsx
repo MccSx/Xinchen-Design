@@ -1,6 +1,6 @@
 import React from "react";
 import "./icon.scss";
-import "./icons/home.svg";
+import "./importAllIcon";
 
 interface IconProps {
   name: string;
