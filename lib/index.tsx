@@ -1,5 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Icon from "./icon";
+import Icon from "./icon/icon";
 
-ReactDOM.render(<Icon name="home" />, document.querySelector("#root"));
+ReactDOM.render(
+  <div>
+    <Icon name="home" />
+  </div>,
+  document.querySelector("#root")
+);
