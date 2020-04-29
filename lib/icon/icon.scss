@@ -2,3 +2,11 @@
   width: 1.4rem;
   height: 1.4rem;
 }
+.xinchen-icon.isSpin {
+  animation: spinner-frame 1.4s linear infinite;
+}
+@keyframes spinner-frame {
+  100% {
+    transform: rotate(360deg);
+  }
+}

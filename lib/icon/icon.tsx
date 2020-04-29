@@ -5,19 +5,19 @@ import handleClasses from "../utils/handleClasses";
 
 interface IconProps extends React.SVGAttributes<SVGElement> {
   name: string;
+  spin?: boolean;
 }
 
 const Icon: React.FunctionComponent<IconProps> = ({
   name,
   className,
+  spin,
   ...resetPorps
 }) => {
   return (
     <svg
-      className={handleClasses("xinchen-icon", className)}
-      onClick={() => {
-        console.log(11);
-      }}
+      className={handleClasses("xinchen-icon", className, spin ? "isSpin" : "")}
+      {...resetPorps}
     >
       <use xlinkHref={`#${name}`}></use>
     </svg>
