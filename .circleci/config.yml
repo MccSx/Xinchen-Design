@@ -21,8 +21,6 @@ jobs:
           root: .
           paths:
             - node_modules
-      - store_test_results:
-          path: test-results
   build:
     <<: *defaults
     steps:
@@ -45,7 +43,9 @@ jobs:
           at: .
       - run: yarn ci
       - store_test_results:
-          path: test-results
+          path: ./test-results/jest/results.xml
+      - store_artifacts:
+          path: ./test-results/jest/results.xml
   # publish:
   #   <<: *defaults
   #   steps:
