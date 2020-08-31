@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="7" failures="0" time="8.421">
+  <testsuite name="handleClasses函数" errors="0" failures="0" skipped="0" timestamp="2020-08-31T09:39:10" time="5.026" tests="5">
+    <testcase classname="handleClasses函数 接受一个classname" name="handleClasses函数 接受一个classname" time="0.003">
+    </testcase>
+    <testcase classname="handleClasses函数 接受两个classname" name="handleClasses函数 接受两个classname" time="0.001">
+    </testcase>
+    <testcase classname="handleClasses函数 不接收参数" name="handleClasses函数 不接收参数" time="0">
+    </testcase>
+    <testcase classname="handleClasses函数 接受undefined参数" name="handleClasses函数 接受undefined参数" time="0">
+    </testcase>
+    <testcase classname="handleClasses函数 接受多个classname及多个奇怪参数" name="handleClasses函数 接受多个classname及多个奇怪参数" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="测试Icon组件" errors="0" failures="0" skipped="0" timestamp="2020-08-31T09:39:10" time="5.094" tests="2">
+    <testcase classname="测试Icon组件 Icon render" name="测试Icon组件 Icon render" time="0.016">
+    </testcase>
+    <testcase classname="测试Icon组件 can click" name="测试Icon组件 can click" time="0.04">
+    </testcase>
+  </testsuite>
+</testsuites>
