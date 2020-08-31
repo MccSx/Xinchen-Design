@@ -21,6 +21,8 @@ jobs:
           root: .
           paths:
             - node_modules
+      - store_test_results:
+          path: test-results
   build:
     <<: *defaults
     steps:
