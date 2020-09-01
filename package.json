@@ -1,9 +1,12 @@
 {
   "name": "xinchen-design",
-  "version": "1.0.0",
+  "version": "0.0.3",
   "description": "个人UI库",
   "main": "dist/lib/index.js",
   "types": "dist/lib/index",
+  "files": [
+    "/dist/**/*"
+  ],
   "scripts": {
     "test": "cross-env NODE_ENV=test jest --config=jest.config.js --runInBand",
     "start": "cross-env NODE_ENV=development npx webpack-dev-server --config webpack.config.dev.js",
