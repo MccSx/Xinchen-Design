@@ -4,7 +4,7 @@ import { HashRouter as Router, Route, Link } from "react-router-dom";
 import IconExample from "./icon/icon.example";
 import "./index.scss";
 
-const App: React.FunctionComponent = props => {
+const App: React.FunctionComponent = () => {
   return (
     <Router>
       <div className="head">XinChen-Design</div>
